@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glassmorphism {
+    background: hsla(0, 0%, 40%, 0.4); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  },
+
+  .glassmorphismlight {
+    background: hsla(0, 0%, 70%, 0.6); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+
+  .hero2 {
+    border-radius: 50% 50% 50% 55% / 70% 60% 40% 25%;
+  }
+}

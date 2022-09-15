@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glassmorphism {
+    background: hsla(0, 0%, 40%, 0.4); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  },
+
+  .glassmorphismlight {
+    background: hsla(0, 0%, 40%, 0.4); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+
+  .hero2 {
+    border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+  }
+  
+  .faq {
+    transition: all .4s cubic-bezier(.65, .05, .36, 1);
+  }
+
+  .faq-content {
+    transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+
+  }
+}

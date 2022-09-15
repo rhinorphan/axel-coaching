@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glassmorphism {
+    background: hsla(0, 0%, 50%, 0.4); 
+    backdrop-filter: blur(20px);
+  }
+}

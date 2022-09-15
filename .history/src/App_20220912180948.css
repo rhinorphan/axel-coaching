@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glassmorphism {
+    background: #E73725; 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  },
+
+  .glassmorphismlight {
+    background: hsla(0, 0%, 40%, 0.4); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+
+  .hero2 {
+    border-radius: 30% 70% 67% 33% / 30% 30% 70% 70% ;
+  }
+
+  .faq-content {
+    transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+
+  }
+}
+
+@keyframes faq {
+  0% {
+    opacity: 0;
+    transform-origin: top center;
+    transform: rotateX(-90deg);
+  }
+  5% {
+    opacity: 1;
+  }
+  80% {
+    transform: rotateX(8deg);
+  }
+  83% {
+    transform: rotateX(6deg);
+  }
+  92% {
+    transform: rotateX(-3deg);
+  }
+  100% {
+    transform-origin: top center;
+    transform: rotateX(0deg);
+  }
+}
