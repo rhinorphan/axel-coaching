@@ -33,7 +33,7 @@ function Footer() {
       <div className='flex justify-center text-xs lg:text-sm mx-auto max-w-3xl font-semibold mt-2'>Site codé avec <span className='mx-1'><SiTailwindcss/></span> par  <a href='https://axeltarifa.dev' className='ml-1 hover:text-[#A04738]'> Axel Tarifa</a></div>
       <div class="flex justify-center text-md mx-auto max-w-3xl font-semibold mt-2">
         © 2022 Copyright :
-        <a class="font-bold hover:text-[#A04738] ml-1" href="/"> Health & Performance</a>
+        <a class="font-bold hover:text-[#A04738] ml-1" href="/"> Axel Coaching</a>
       </div>
       
     </footer>

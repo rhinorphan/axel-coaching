@@ -38,7 +38,7 @@ function Home() {
   },[windowSize]);
 
   return (
-    <div className="font-sora px-4 pb-3 bg-[#F5F4F2] dark:bg-gray-900 text-gray-800 dark:text-white scroll-smooth">
+    <div className="font-sora px-4 py-3 bg-[#F5F4F2] dark:bg-gray-900 text-gray-800 dark:text-white scroll-smooth">
       <NavBar isMobile={isMobile} />
       <Slogan />
       <Content />

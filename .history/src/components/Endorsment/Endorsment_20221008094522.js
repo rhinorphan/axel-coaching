@@ -3,7 +3,7 @@ import React from 'react'
 function Endorsment() {
   return (
     <section className="my-32 text-gray-800 dark:text-white text-center">
-      <h2 className="text-4xl tracking-tight font-extrabold mb-12">Les <span className='text-[#A04738]'>meilleures</span> entreprises me font <span className='text-[#A04738]'>confiance</span></h2>
+      <h2 className="text-4xl tracking-tight font-extrabold mb-12">Les <span className='text-[#E73725]'>meilleures</span> entreprises me font <span className='text-[#E73725]'>confiance</span></h2>
 
       <div className="grid gap-6 items-center justify-center">
         <div className="my-12 lg:my-0">

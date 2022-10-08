@@ -36,7 +36,7 @@ function Entreprise() {
   },[windowSize]);
 
   return (
-    <div className="font-sora px-4 pb-3 overflow-y-auto overflow-x-hidden bg-[#F5F4F2] dark:bg-gray-900 text-gray-800 dark:text-white scroll-smooth">
+    <div className="font-sora px-4 py-3 overflow-y-auto overflow-x-hidden bg-[#F5F4F2] dark:bg-gray-900 text-gray-800 dark:text-white scroll-smooth">
       <NavBarEntreprise isMobile={isMobile} />
       <Hero />
       <div className="py-8 gap-8 items-center px-4 mx-auto max-w-screen-2xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6 text-center" id='entreprise'>

@@ -31,7 +31,7 @@ const NavBar = (props) => {
               {isDarkMode ? (
                 <FaMoon size={"21px"} color="#D1D5DB" className="cursor-pointer"/>
               ) : (
-                <BsFillSunFill size={"22px"} color="#A04738" className="cursor-pointer"/>
+                <BsFillSunFill size={"22px"} color="#E73725" className="cursor-pointer"/>
               )}
               </span>
           </label>
@@ -47,22 +47,22 @@ const NavBar = (props) => {
           </li>
         ) : (
           <>
-            <li className="hover:text-[#A04738] transition-all duration-300 cursor-pointer"><a href="/#a-propos">À propos</a></li>
-            <li className="hover:text-[#A04738] transition-all duration-300 cursor-pointer"><a href="/#prix">Prix</a></li>
-            <li className="hover:text-[#A04738] transition-all duration-300 cursor-pointer"><a href="/#temoignage">Témoignage</a></li>
-            <li className="hover:text-[#A04738] transition-all duration-300 cursor-pointer"><a href="/#faq">FAQ</a></li>
-            <li className="hover:text-[#A04738] transition-all duration-300 cursor-pointer"><a href="/entreprise">Entreprise</a></li>
-            <li className="bg-gray-800 dark:bg-[#A04738] shadow-md dark:shadow-dk text-[#FFFFFF] dark:text-white dark:hover:bg-white dark:hover:text-[#A04738] hover:bg-[#A04738] rounded-full py-2 px-3 transition-all duration-300 cursor-pointer ml-2 lg:ml-20 xl:ml-36"><a href="#contact">Contact</a></li>
+            <li className="hover:text-[#E73725] transition-all duration-300 cursor-pointer"><a href="/#a-propos">À propos</a></li>
+            <li className="hover:text-[#E73725] transition-all duration-300 cursor-pointer"><a href="/#prix">Prix</a></li>
+            <li className="hover:text-[#E73725] transition-all duration-300 cursor-pointer"><a href="/#temoignage">Témoignage</a></li>
+            <li className="hover:text-[#E73725] transition-all duration-300 cursor-pointer"><a href="/#faq">FAQ</a></li>
+            <li className="hover:text-[#E73725] transition-all duration-300 cursor-pointer"><a href="/entreprise">Entreprise</a></li>
+            <li className="bg-gray-800 dark:bg-[#E73725] shadow-md dark:shadow-dk text-[#FFFFFF] dark:text-white dark:hover:bg-white dark:hover:text-[#E73725] hover:bg-[#E73725] rounded-full py-2 px-3 transition-all duration-300 cursor-pointer ml-2 lg:ml-20 xl:ml-36"><a href="#contact">Contact</a></li>
           </>
         )}
         { openMenu && (
           <div className="absolute right-8 dark:glassmorphism backdrop-blur-lg backdrop-opacity-100 backdrop-contrast-75 rounded-xl p-4 text-center text-[13px] justify-center content-evenly dark:text-gray-100 text-gray-800 font-semibold z-50">
-            <li className="cursor-pointer my-2 hover:text-[#A04738] transition-all duration-300"><a href="/#a-propos" onClick={handleMenu}>À propos</a></li>
-            <li className="cursor-pointer my-2 hover:text-[#A04738] transition-all duration-300"><a href="/#prix" onClick={handleMenu}>Prix</a></li>
-            <li className="cursor-pointer my-2 hover:text-[#A04738] transition-all duration-300"><a href="/#temoignage" onClick={handleMenu}>Témoignage</a></li>
-            <li className="cursor-pointer my-2 hover:text-[#A04738] transition-all duration-300"><a href="/#faq" onClick={handleMenu}>FAQ</a></li>
-            <li className="cursor-pointer my-2 hover:text-[#A04738] transition-all duration-300"><a href="/entreprise" onClick={handleMenu}>Entreprise</a></li>
-            <li className="cursor-pointer my-2 hover:text-[#A04738] transition-all duration-300"><a href="#contact" onClick={handleMenu}>Contact</a></li>
+            <li className="cursor-pointer my-2 hover:text-[#E73725] transition-all duration-300"><a href="/#a-propos" onClick={handleMenu}>À propos</a></li>
+            <li className="cursor-pointer my-2 hover:text-[#E73725] transition-all duration-300"><a href="/#prix" onClick={handleMenu}>Prix</a></li>
+            <li className="cursor-pointer my-2 hover:text-[#E73725] transition-all duration-300"><a href="/#temoignage" onClick={handleMenu}>Témoignage</a></li>
+            <li className="cursor-pointer my-2 hover:text-[#E73725] transition-all duration-300"><a href="/#faq" onClick={handleMenu}>FAQ</a></li>
+            <li className="cursor-pointer my-2 hover:text-[#E73725] transition-all duration-300"><a href="/entreprise" onClick={handleMenu}>Entreprise</a></li>
+            <li className="cursor-pointer my-2 hover:text-[#E73725] transition-all duration-300"><a href="#contact" onClick={handleMenu}>Contact</a></li>
           </div>
         )}
       </ul>

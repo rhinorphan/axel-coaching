@@ -4,7 +4,6 @@ import {FaMoon} from 'react-icons/fa';
 import {HiOutlineMenu} from 'react-icons/hi';
 import {MdOutlineClose} from 'react-icons/md';
 import useDarkMode from '../../useDarkMode';
-import logo from '../../assets/desktop/logo.png'
 
 const NavBarEntreprise = (props) => {
   
@@ -20,8 +19,8 @@ const NavBarEntreprise = (props) => {
     <nav className="flex items-center scroll-smooth mb-5">
       <div className="flex items-center">
         <div className="text-[18px] lg:text-[22px] font-bold cursor-pointer mr-4">
-          <img src={logo} alt="health & performance logo" className='h-28 w-28'/>
-        </div>
+          <a href='/'><span className='text-[#A04738]'>Axel</span> Coaching</a>
+          </div>
         <label for="default-toggle" class="inline-flex relative items-center cursor-pointer mr-6">
             <input type="checkbox" value="" id="default-toggle" class="sr-only peer" onClick={() => toggleDarkMode(!isDarkMode)}/>
             <div class="w-11 h-6 bg-gray-200  peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-gray-800 dark:peer-focus:ring-white rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-300"></div>
